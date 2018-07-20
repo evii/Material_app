@@ -18,8 +18,9 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="color_brown500">#795548</color>
-    <color name="color_brown800">#4E342E</color>
-    <color name="color_yellow600">#FDD835</color>
+    <color name="color_grey500">#9E9E9E</color>
+    <color name="color_grey700">#616161</color>
+    <color name="color_pink300">#F06292</color>
+    <color name="color_white">#FFFFFF</color>
     <!--<color name="ltgray">#ffe0e0e0</color>-->
 </resources>

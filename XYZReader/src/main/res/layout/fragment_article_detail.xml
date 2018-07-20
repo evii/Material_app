@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:fitsSystemWindows="true"
-                android:theme="@style/AppTheme.AppBarOverlay">
+                android:theme="@style/App.Theme">
 
                 <android.support.design.widget.CollapsingToolbarLayout
                     android:id="@+id/toolbar_layout"
@@ -43,7 +43,8 @@
                             android:id="@+id/photo"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:scaleType="centerCrop" />
+                            android:scaleType="centerCrop"
+                            android:adjustViewBounds="true"/>
                     </FrameLayout>
 
 
@@ -52,7 +53,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="?attr/actionBarSize"
                         app:layout_collapseMode="pin"
-                        app:popupTheme="@style/AppTheme.PopupOverlay" />
+                        app:popupTheme="@style/App.Theme" />
 
                 </android.support.design.widget.CollapsingToolbarLayout>
             </android.support.design.widget.AppBarLayout>
@@ -79,7 +80,7 @@
                         android:paddingBottom="@dimen/detail_metabar_vert_padding"
                         android:paddingLeft="@dimen/detail_inner_horiz_margin"
                         android:paddingRight="@dimen/detail_inner_horiz_margin"
-                        android:paddingTop="@dimen/detail_metabar_vert_padding">
+                        >
 
                         <TextView
                             android:id="@+id/article_title"
@@ -114,8 +115,8 @@
                             android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                             android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                             android:paddingBottom="@dimen/detail_body_bottom_margin"
-                            android:textColor="@color/color_brown500"
-                            android:textColorLink="@color/color_yellow600"
+                            android:textColor="@color/color_grey500"
+                            android:textColorLink="@color/color_pink300"
                             android:textSize="@dimen/detail_body_text_size" />
 
                         <Button
