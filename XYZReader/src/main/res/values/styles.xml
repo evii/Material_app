@@ -23,6 +23,50 @@
         <item name="android:colorAccent">@color/color_pink300</item>
 
     </style>
+
+
+    <style name="list.title.style" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/color_grey900</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:paddingTop">@dimen/list.title_pading_top</item>
+        <item name="android:paddingBottom">@dimen/list.title_pading_bottom</item>
+        <item name="android:paddingRight">@dimen/list.title_pading_right</item>
+        <item name="android:paddingLeft">@dimen/list.title_pading_left</item>
+    </style>
+
+    <style name="list.subtitle.style" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/color_grey500</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingBottom">@dimen/list.title_pading_top</item>
+        <item name="android:paddingRight">@dimen/list.title_pading_right</item>
+        <item name="android:paddingLeft">@dimen/list.title_pading_left</item>
+    </style>
+
+    <style name="detail.title.style" parent="android:TextAppearance.Large">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="detail.byline.style" parent="android:TextAppearance.Small">
+        <item name="android:textColor">#8fff</item>
+    </style>
+
+    <style name="detail.body.style" parent="android:TextAppearance.Medium">
+        <item name="android:layout_marginLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:layout_marginTop">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier</item>
+        <item name="android:textColor">@color/color_grey700</item>
+        <item name="android:textColorLink">@color/color_pink300</item>
+    </style>
+
+
+
     <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
@@ -42,12 +86,7 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>-->
 
-    <style name="zero_text">
-        <item name="android:textSize">0sp</item>
-    </style>
-    <style name="normal_text">
-        <item name="android:textSize">24sp</item>
-    </style>
+
 
 
 

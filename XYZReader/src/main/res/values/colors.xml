@@ -20,7 +20,10 @@
 
     <color name="color_grey500">#9E9E9E</color>
     <color name="color_grey700">#616161</color>
+    <color name="color_grey900">#212121</color>
+    <color name="color_grey300">#E0E0E0</color>
     <color name="color_pink300">#F06292</color>
+
     <color name="color_white">#FFFFFF</color>
     <!--<color name="ltgray">#ffe0e0e0</color>-->
 </resources>
