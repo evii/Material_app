@@ -231,7 +231,6 @@ public class ArticleDetailFragment extends Fragment implements
                         outputFormat.format(publishedDate) + " by <font color='#ffffff'>"
                                 + mCursor.getString(ArticleLoader.Query.AUTHOR)
                                 + "</font>"));
-
             }
 
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).substring(0, 1000).replaceAll("(\r\n|\n)", "<br />")));
