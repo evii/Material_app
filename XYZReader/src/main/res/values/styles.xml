@@ -18,9 +18,9 @@
 <resources>
 
     <style name="App.Theme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/color_grey500</item>
-        <item name="android:colorPrimaryDark">@color/color_grey700</item>
-        <item name="android:colorAccent">@color/color_pink300</item>
+        <item name="colorPrimary">@color/color_grey500</item>
+        <item name="colorPrimaryDark">@color/color_grey700</item>
+        <item name="colorAccent">@color/color_pink300</item>
     </style>
 
     <style name="list.title.style" parent="TextAppearance.AppCompat.Subhead">

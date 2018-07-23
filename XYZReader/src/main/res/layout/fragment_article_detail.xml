@@ -122,7 +122,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/fab_margin"
                 android:contentDescription="@string/action_share"
-                app:backgroundTint="@color/color_pink300"
                 app:borderWidth="0dp"
                 app:elevation="6dp"
                 app:fabSize="normal"
